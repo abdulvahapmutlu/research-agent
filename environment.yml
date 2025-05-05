@@ -1,0 +1,16 @@
+name: agent
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - streamlit
+    - neo4j
+    - langchain
+    - transformers
+    - sentence-transformers
+    - faiss-cpu
+    - cross-encoder
+    - uvicorn
+    - python-dotenv

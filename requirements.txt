@@ -1,0 +1,8 @@
+streamlit 
+neo4j 
+langchain 
+transformers 
+sentence-transformers 
+faiss-cpu 
+uvicorn 
+python-dotenv

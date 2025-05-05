@@ -1,0 +1,28 @@
+# ─── docker-compose.yml ───────────────────────────────────────────────────────
+version: '3.8'
+services:
+  neo4j:
+    image: neo4j:5
+    container_name: neo4j
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      NEO4J_AUTH: "neo4j/password"  # use your password
+    volumes:
+      - neo4j_data:/data
+
+  app:
+    build: .
+    container_name: research-agent
+    ports:
+      - "8501:8501"
+    environment:
+      NEO4J_URI: "bolt://neo4j:7687"
+      NEO4J_USER: "neo4j"
+      NEO4J_PASS: "password" #Password here as well
+    depends_on:
+      - neo4j
+
+volumes:
+  neo4j_data:
