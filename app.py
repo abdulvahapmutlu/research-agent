@@ -22,12 +22,9 @@ with st.sidebar:
     st.markdown("---")
     st.subheader("Try questions like")
     st.markdown(
-        "- Which approaches used ResNet backbone?\n"
-        "- Which methods achieved >90% on CIFAR-10?\n"
-        "- Summarize the Transformer training setup"
+        "- Which approaches used ResNet backbone?"
     )
     st.markdown("---")
-    st.caption("Built with Streamlit • Free on Streamlit Community Cloud")
 
 # ─── Main ───────────────────────────────────────────────────────────────────────
 st.title("🧠 Research Assistant Agent")
@@ -74,7 +71,7 @@ if st.button("🔎 Ask", use_container_width=True):
 # ─── Footer ────────────────────────────────────────────────────────────────────
 st.markdown("---")
 st.write(
-    "© 2025 Your Name • "
-    "[GitHub](https://github.com/yourusername) • "
+    "© 2025 Abdulvahap Mutlu • "
+    "[GitHub](https://github.com/abdulvahapmutlu) • "
     "[LinkedIn](https://linkedin.com/in/yourusername)"
 )
