@@ -102,15 +102,15 @@ This project demonstrates a two‑pronged approach to question answering over a 
 ## Usage
 
 - **Structured Questions** (graph route):  
-  - “Which approaches used ResNet backbone?”  
+  - “Which approaches use ResNet backbone?”  
 
 - **Free‑Form Questions** (RAG fallback):  
   - “Summarize the Transformer training setup.”  
 
 Type your query into the text box and hit **Ask**. The UI will display either a graph‑backed result or a generated answer with source snippets.
 
-### ⚠️ Important Note
-This is a demo project, therefore only for demonstration and it may not answer each query, to specialize you need to recreate with your own data or use an LLM API
+### ⚠️ Important Note ⚠️
+This is a demo project; therefore, it is only for demonstration and it may not answer each query. To specialize, you need to recreate it with your own data or use an LLM API
 
 ---
 
