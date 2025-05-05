@@ -109,7 +109,7 @@ This project demonstrates a two‑pronged approach to question answering over a 
 
 Type your query into the text box and hit **Ask**. The UI will display either a graph‑backed result or a generated answer with source snippets.
 
-## ⚠️ Important Note
+### ⚠️ Important Note
 This is a demo project, therefore only for demonstration and it may not answer each query, to specialize you need to recreate with your own data or use an LLM API
 
 ---
