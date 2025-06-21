@@ -73,5 +73,5 @@ st.markdown("---")
 st.write(
     "© 2025 Abdulvahap Mutlu • "
     "[GitHub](https://github.com/abdulvahapmutlu) • "
-    "[LinkedIn](https://linkedin.com/in/yourusername)"
+    "[LinkedIn](https://linkedin.com/in/abdulvahap-mutlu-9420b9235)"
 )
